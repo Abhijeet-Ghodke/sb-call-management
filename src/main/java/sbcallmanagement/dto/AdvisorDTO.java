@@ -40,10 +40,4 @@ public class AdvisorDTO {
 	public void setBookingId(Long bookingId) {
 		this.bookingId = bookingId;
 	}
-	
-	
-
-    
-    
-    // Getters and setters
 }

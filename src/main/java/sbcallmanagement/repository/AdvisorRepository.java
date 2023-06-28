@@ -9,15 +9,5 @@ import sbcallmanagement.entity.Advisor;
 
 @Repository
 public interface AdvisorRepository extends JpaRepository<Advisor, Long> {
-    // Add any custom repository methods if needed
+    
 }
-
-
-
-
-//import sbcallmanagement.entity.Advisor;
-
-//@Repository
-//public interface AdvisorRepository extends JpaRepository<Advisor, Long> {
-//	
-//}

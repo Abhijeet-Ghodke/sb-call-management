@@ -10,22 +10,5 @@ import sbcallmanagement.entity.Booking;
 
 @Repository
 public interface BookingRepository extends JpaRepository<Booking, Long> {
-	List<Booking> findByUser_Id(Long userId);
-	
-    // Add custom queries if needed
+	List<Booking> findByUser_Id(Long userId);  
 }
-
-
-
-
-
-
-
-//import sbcallmanagement.entity.Booking;
-//
-//@Repository
-//public interface BookingRepository extends JpaRepository<Booking, Long> {
-//    List<Booking> findAllByAdvisor_Id(Long advisorId);
-//    List<Booking> findAllByUser_Id(Long userId);
-//}
-
